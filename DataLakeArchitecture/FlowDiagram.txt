@@ -1,0 +1,24 @@
+/* ---------------------- High Level Architecture -------------------- */
+
+   Data Sources (Excel)
+        |
+        v
+   Ingestion & Orchestration (Airflow)
+        |
+        v
+     RAW Layer  (file dump as-is)
+        |
+        v
+   STAGING Layer (temporary structured prep)
+        |
+        v
+   LANDING 0 (record-level structured survey data)
+        |
+        v
+   LANDING 1 (cleaned & validated for statisticians)
+        |
+        v
+   AGGREGATED (official, reviewed, indicator-level)
+        |
+        v
+       BI (star schemas, dashboards, KPIs)
