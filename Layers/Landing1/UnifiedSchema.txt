@@ -1,0 +1,7 @@
+indicator_id (sheet number: 1.1, 2.4 etc.)
+indicator_name
+year
+unit
+value
+section     (1 = Production, 2 = Consumption, 3 = Trade)
+sub_sector  (Oil, Gas, LPG, etc)
